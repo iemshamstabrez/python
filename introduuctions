@@ -1,0 +1,13 @@
+lines of code are instructions for the computer to follow.
+When we run code, we tell the computer to follow the instructions we put together.
+For Ex 
+The order of the instructions matters because the computer follows the instructions line by line.
+Arrange these line of code in the correct order, beginning with step_1, followed by step_2, and finally step_3.
+step_1= " Collect pants"
+step_2 = "?"
+step_3 = " Profit"
+
+What's the console? 
+ans= An area that displays output
+What dose the special instruction print() do? 
+ans = It display a value in the console.
