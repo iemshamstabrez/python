@@ -1,0 +1,16 @@
+Welcome to your first Python project , during which you'll build a simpple bot.
+In this first part , we'll take the conversation , but already in the second part of the project, you'll capture input to make this a real conversation.
+1. Add the print function to display ("Hello! What is your name ?")
+print("Hello! What is your name ?")
+2. To mimic the user's input , lets create a variable for the user's name. 
+a1. Add a variable called name and assign it a string value. Maybe your name?
+a2. After declaring the variable , add a second print statement. Use the f- srting method to display f"Nice to meet you , {neme}!"
+print("Hello! What is your name ?")
+name="Sam"
+print(f"Nice to meet you , {neme}!")
+Our bot shiuld continue the convesation with the user by asking how old they are.
+A1. Use the print function to display "How old are you?"
+print("Hello! What is your name ?")
+name="Sam"
+print(f"Nice to meet you , {neme}!")
+print("How old are you ?")
