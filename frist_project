@@ -1,16 +1,90 @@
 Welcome to your first Python project , during which you'll build a simpple bot.
 In this first part , we'll take the conversation , but already in the second part of the project, you'll capture input to make this a real conversation.
 1. Add the print function to display ("Hello! What is your name ?")
+
 print("Hello! What is your name ?")
+
 2. To mimic the user's input , lets create a variable for the user's name. 
 a1. Add a variable called name and assign it a string value. Maybe your name?
 a2. After declaring the variable , add a second print statement. Use the f- srting method to display f"Nice to meet you , {neme}!"
+
 print("Hello! What is your name ?")
 name="Sam"
-print(f"Nice to meet you , {neme}!")
-Our bot shiuld continue the convesation with the user by asking how old they are.
+print(f"Nice to meet you , {name}!")
+
+Our bot should continue the convesation with the user by asking how old they are.
 A1. Use the print function to display "How old are you?"
+
 print("Hello! What is your name ?")
 name="Sam"
-print(f"Nice to meet you , {neme}!")
+print(f"Nice to meet you , {name}!")
 print("How old are you ?")
+
+Create a variable to the user's age ant the age of our bot. We'll later compare the two.
+A1. Add a variable name age and assign it a value. Feel free to use your actual age. 
+A2. Add a variable named bot_age and assign it a value of 3. 
+
+script.py 
+print("Hello! What is your name ?")
+name="Sam"
+print(f"Nice to meet you , {name}!")
+print("How old are you ?")
+age=10
+age_bot=3
+
+Calculate the difference between the user's subtracts the bot's age from the value of the variable age.
+
+script.py 
+print("Hello! What is your name ?")
+name="Sam"
+print(f"Nice to meet you , {name}!")
+print("How old are you ?")
+age=10
+age_bot=3
+age_difference= age- bot_age
+
+
+Display a message about the age difference and the bot's age.
+A1. Use the print function and an f-string to display "You are {age_difference} years older thsn me. I'm only {bot_age}
+ years old!"
+
+script.py 
+print("Hello! What is your name ?")
+name="Sam"
+print(f"Nice to meet you , {name}!")
+print("How old are you ?")
+age=10
+age_bot=3
+age_difference= age- bot_age
+print(f"You are {age_difference} years older thsn me. I'm only {bot_age} years old!")
+
+let's have our bot ask the usser about their favorite coler.
+A1. Use the print function to display "What's your favorite color?"
+
+script.py 
+print("Hello! What is your name ?")
+name="Sam"
+print(f"Nice to meet you , {name}!")
+print("How old are you ?")
+age=10
+age_bot=3
+age_difference= age- bot_age
+print(f"You are {age_difference} years older thsn me. I'm only {bot_age} years old!")
+print("What's your favorite color?")
+
+Create a variable for the user's favorite color and make the bot respond with a compliment. 
+A1. Add a variable named color and assign it a value.
+A2. Use the print function and f-string to display "Oh, {color} is abeautiful color!"
+
+script.py 
+print("Hello! What is your name ?")
+name="Sam"
+print(f"Nice to meet you , {name}!")
+print("How old are you ?")
+age=10
+age_bot=3
+age_difference= age- bot_age
+print(f"You are {age_difference} years older thsn me. I'm only {bot_age} years old!")
+print("What's your favorite color?")
+color= "Black"
+print("Oh, {color} is abeautiful color!")
