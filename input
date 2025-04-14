@@ -1,0 +1,27 @@
+Program are more fun if they cantake input from the outside.
+When we run code, we can include the input to after the program.
+We can use the input function as many times as we want.
+
+1. The order of the instructions matters. Once we collect input and store it in a variable, we reuse it. 
+
+print("What's your name?")
+name_input= input()
+print(f"Hi, {name_input}!")
+
+2. The input is always of type string. If we want to use it as a number, we need to convert it to an integer or float beforehand.
+
+user_input_1 = input("Enter a number:")
+user_input_2 = input("Enter another number:")
+number1= int(user_input_1)
+number2= int(user_input_2)
+result= number1+ number2
+print(f" The sum is {result}")
+
+3. We can also use in floats number to repleace int into float
+
+user_input_1 = input("Enter a number:")
+user_input_2 = input("Enter another number:")
+number1= float(user_input_1)
+number2= float(user_input_2)
+result= number1+ number2
+print(f" The sum is {result}")
