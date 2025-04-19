@@ -1,0 +1,51 @@
+Welcome back to the Bot project. In part 2, we'll modify the existing code by accepting user input to make it more interarive.
+let's start with the first questoin.
+A1. Remove the line where you declare the name variable and assign it a value. 
+A2. Add input function to capture the user's input and add "Hello! What is your name?" as the argument between the parentheses. 
+Run the program and enter your name when prompted in the console. You'll see the program stops and waits for the user's input when using the input function.
+Also , mote that we can keave a space in the promt used in the input function to make it easier for our user to type in their name, as we then have a whitespace between the quetion mark and the start of the user's text.
+
+script.py 
+print("Hello! What is your name?")
+name = input ("Hello! What is your name?")
+print(f"Nice to meet your, {name}!")
+print("How old are you?")
+age = 10
+bot_age = 3 
+age_difference = age- bot_age
+print("you are {age_difference} years older than me. I'm onle {bot_age} years old !")
+print("What's Your favorite color?")
+color = "blue"
+Print(f"Oh, {color} is a beautiful color!")
+
+Our bot now twice asks the user's what their name is. Once because of the first print statement and once because of the newly added input function.
+A1. Remove the print statement to display the question only once (using input function instead of print)
+
+name = input ("Hello! What is your name?")
+print(f"Nice to meet your, {name}!")
+print("How old are you?")
+age = 10
+bot_age = 3 
+age_difference = age- bot_age
+print("you are {age_difference} years older than me. I'm onle {bot_age} years old !")
+print("What's Your favorite color?")
+color = "blue"
+Print(f"Oh, {color} is a beautiful color!")
+
+Continuing from there, Let's make the user type in their age insead of defining it in the code itself.
+A1. Replace the line where we define the age variable with the input function use "How old are your?" with the input function and save the recived input in a variable called age_input.
+A2. Create a vreable called age and use the int funtion to transform the input into a number like age= int(age_input).
+A3. Remove the print function display "How old are you?" to not ask twice.
+
+name = input ("Hello! What is your name?")
+print(f"Nice to meet your, {name}!")
+age_input = input("How old are you?")
+age = int (age_input)
+bot_age = 3 
+age_difference = age- bot_age
+print("you are {age_difference} years older than me. I'm onle {bot_age} years old !")
+print("What's Your favorite color?")
+color = "blue"
+Print(f"Oh, {color} is a beautiful color!")
+
+Finally, let the user share their favorite color insead of pre-fillinit
