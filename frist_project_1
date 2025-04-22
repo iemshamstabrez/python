@@ -1,6 +1,6 @@
 Welcome to our first Python project , during which you'll build a simple bot.
 In this first part , we'll take the conversation , but already in the second part of the project, you'll capture input to make this a real conversation.
-1. Add the print function to display ("Hello! What is your name ?")
+***1. Add the print function to display ("Hello! What is your name ?")***
 
 print("Hello! What is your name ?")
 
