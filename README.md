@@ -1,1 +1,1 @@
-# python for AI devlopment
+# Python for AI devlopment
