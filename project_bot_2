@@ -48,4 +48,17 @@ print("What's Your favorite color?")
 color = "blue"
 Print(f"Oh, {color} is a beautiful color!")
 
-Finally, let the user share their favorite color insead of pre-fillinit
+Finally, let the user share their favorite color insead of pre-fillingit
+A1. Replace the line where color is defined with an input function to ask the user "What's your favorite color?"Save the result from the input function to a variable called color.
+A2. Remove the print statement that asks for the color as the input statement should display the question.
+
+script.py
+name = input ("Hello! What is your name?")
+print(f"Nice to meet your, {name}!")
+age_input = input("How old are you?")
+age = int (age_input)
+bot_age = 3 
+age_difference = age- bot_age
+print("you are {age_difference} years older than me. I'm onle {bot_age} years old !")
+color = input ("What's your favourite color?")
+Print(f"Oh, {color} is a beautiful color!")
