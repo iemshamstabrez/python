@@ -1,0 +1,17 @@
+Smart programs use booleans to make decision on whether to run lines of code or skip them.
+A1. We use an if statement to write code that respond to different situations. We recognize it by the keyword if.
+
+script.py 
+if True:
+  print ("Hello!")
+  
+A2. But what if we want to stop the code?
+In that case, we need that statement to evaluate as false.
+Let's easily make the statement evaluate to false by simply using the boolean value false. Nothing will print.
+
+script.py
+if false:
+ print("Hello!")
+
+ Q1 What are the value that decide whether a code block runs or not?
+ ANS= Conditions
