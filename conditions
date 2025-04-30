@@ -1,0 +1,29 @@
+## if statement 
+
+WE can use comparison operators in programs. Check if the answeer to a question is correct.
+  script.py
+
+  answer= "Picasso"
+  if answer == "Picasso":
+    print (answer + "is correct !")
+
+What if the answer isn't correct? We can use the inequality oprator != to check if answer is not equal to "Picasso"
+
+  scripy.py
+  answer = "Matisse"
+  if answer != "Picasso":
+    print (answwer "is wrong!")
+
+  ## ELse statement
+
+  insead of creating two if statement we use an if/else statement to achive the same rersult.
+
+script.py
+
+  available = False
+  if available :
+    print ("1 in stock")
+  else:
+      print ("out of stock")
+
+  The else statement
