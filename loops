@@ -1,0 +1,31 @@
+shopping_list = ["apple", "banana", "bread", "milk", "chips", "eggs"]       
+for item in shopping_list:
+    if item == "chips":
+        continue
+    print (f" Don't forget to buy {item}.")
+# Output:
+
+#another code starts from here
+#  
+for i in range(1, 6):
+    if i == 3:
+        break
+    print(i)
+
+# next code 
+password = "open_sesame"
+while True:
+    user_input = input("Enter the password: ")
+    if user_input == password:
+        print("Access granted.")
+        break                                       
+        print("Access denied. Try again.")
+
+        finally the elese statement in loop is executed when the loop has finished. Remember, else in a loop differs from else in an if statememt.
+    
+     for i in range(6):
+        print(i)
+    else:
+        print('loop finished')
+# Output:
+#
