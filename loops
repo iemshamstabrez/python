@@ -28,4 +28,13 @@ while True:
     else:
         print('loop finished')
 # Output:
-#
+
+task = ["pending", "completed", "pending", "pending"]
+index = 0
+while index < len(task):
+    if task[index] == "completed":
+        print(f"skipping task {index + 1}")
+        index += 1
+        continue
+    print(f"Processing task {index + 1}")
+    index += 1
